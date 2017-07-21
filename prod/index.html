@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PortCigar</title>
+	<link rel="icon" href="img/favicon.ico"/>
+	
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+  <link type="text/css" rel="stylesheet" href="css/main.css">
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<section id="home" class="first-slide">
+		<div class="container">
+			<header class="header">
+				<div class="row">
+					<div class="col-xs-3 col-md-3">
+						<a class="logo" href="#home">
+							<img src="img/Logo-top.png" alt="logo-top">
+						</a>
+					</div>
+					<div class="col-xs-9 col-md-9">
+						<button id="show_menu" class="my-hamburger">
+							<span>toggle menu</span>
+						</button>
+
+						<button class="btn btn--sale">Распродажа</button> 
+
+						<nav id="main-menu" class="menu animation">
+							<ul class="menu__list">
+								<li class="menu__item"><a class="menu__link active" href="#catalog">Каталог товаров</a></li>
+								<li class="menu__item"><a class="menu__link" href="#news">Новости</a></li>
+								<li class="menu__item"><a class="menu__link" href="#calculator">Калькулятор никотина</a></li>
+								<li class="menu__item"><a class="menu__link" href="#constructor">Конструктор сигарет</a></li>
+								<li class="menu__item"><a class="menu__link" href="#contact">Контакты</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div> <!-- /.row -->
+			</header>
+		</div> <!-- /.container -->			
+		
+		<div class="container container--nopad">
+			<div class="wrapper-info">
+				<div class="first-slide-content">
+				<p class="first-slide-content__text">нОВЫЕ ПОСТУПЛЕНИЯ</p>
+				<h1 class="first-slide-content__title">лУЧШИЙ НАБОР<br>ДЛЯ НОВИЧКОВ 2015</h1>
+				<a href="#" class="btn">Посмотреть</a>
+				</div>
+			</div>
+
+			<div class="info-slide">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-nopad">
+						<div class="info-slide__wrapper">
+							<img src="img/info1.jpg" alt="info1">
+							<div class="info-slide__content">
+								<h3>Премиум<br>Жидкости</h3>
+								<a href="#" class="btn">Посмотреть</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-nopad">
+						<div class="info-slide__wrapper">
+							<img src="img/info2.jpg" alt="info2">
+							<div class="info-slide__content col-nopad">
+								<h3>Сменные<br>Испарители</h3>
+								<a href="#" class="btn">Посмотреть</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-4 col-nopad">
+						<div class="info-slide__wrapper">
+							<img src="img/info3.jpg" alt="info3">
+							<div class="info-slide__content">
+								<h3>Мех.<br>Моды</h3>
+								<a href="#" class="btn">Посмотреть</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="shipment">
+				<img class="shipment__img" src="img/shipment-img.png" alt="shipment-img">
+				<span class="shipment__text1">дОСТАВКА ПО ВСЕЙ УКРАИНЕ</span>
+				<span class="shipment__text2">Бесплатная доставка по Киеву при заказе на сумму от 500 грн.</span>
+				<a href="#">Подробнее</a>			
+			</div>
+		</div><!-- /.container -->
+		
+	</section><!-- /.first-slide -->
+
+	<main>
+		<section id="catalog" class="slide-catalog">
+			<div class="container container--nopad">
+				<h2 class="title">Популярные товары</h2>
+			</div>	
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red show">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo1.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Вариват/Варивольт iStick 30W</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">800 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">бАКОМАЙЗЕРЫ <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red hide">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo1.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Вариват/Варивольт iStick 30W</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">500 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">батарейные блоки <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--green show">Новинка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo1.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Бакомайзер Eleaf LEMO 2 (Оригинал)</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">690 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Бакомайзеры <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red show">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo1.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Обслуживаемый атомайзер Kayfun Lite v2 (Клон)</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">650 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Атомайзеры <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+
+			<div class="container container--nopad">
+				<h2 class="title">Рекомендуемые товары</h2>
+			</div>	
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--green show">Новинка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo2.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Набор для новичков Subox mini</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">1680 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Наборы для новичков <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red hide">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo3.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Обслуживаемый атомайзер-дрипка Mutation</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">1680 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Атомайзеры <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red hide">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo4.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Механический мод SMPL (клон)</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">380 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Мех.моды <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="product-card">
+							<div class="product-card__top">
+								<div class="ribbon ribbon--red show">Скидка</div>
+								<div class="card-icon">
+										<span class="fa fa-balance-scale" aria-hidden="true"></span>
+										<span class="fa fa-heart" aria-hidden="true"></span>									
+								</div>
+							</div>
+							<img class="product-card__photo" src="img/product-photo5.png" alt="product-photo">
+							<div class="product-card__info">
+								<h4 class="product-card__name">Аккумулятор Efest Purple 18650</h4>
+								<div class="wrapper-price">										
+									<span class="product-card__price">250 грн.</span>
+									<span class="product-card__add icon-Cart"></span>
+								</div>
+								<div class="wrapper-link">
+									<a href="#">Мех.моды <span class="fa fa-caret-right" aria-hidden="true"></span></a>
+								</div>							
+							</div>
+						</div>
+					</div>
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+
+			<div class="container container--nopad">
+				<div class="mail">
+					<span class="mail__text">Будь в курсе всех новых акций и распродаж!</span>
+					<a class="btn btn--mail" href="#">Подписаться на рассылку</a>			
+				</div>
+			</div><!-- /.container -->
+			
+		</section> <!-- /.slide-catalog -->
+
+		<section id="news" class="slide-news">
+
+			<div class="container container--nopad">
+				<h2 class="title">Новости, статьи и обзоры</h2>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<div class="news-block">
+							<div class="news-block__top clearfix">
+								<div class="ribbon ribbon--news ribbon--green">Новости</div>
+							</div>
+							<div class="news-block__main clearfix">
+								<div class="news-block__wrapper-img">
+									<img class="news-block__photo" src="img/news1.png" alt="news-photo">
+								</div>
+								<div class="news-block__content">
+									<h4 class="news-block__title">Убийца iStick 30W</h4>
+									<p class="news-block__date">20.07.2015 в 11:51</p>
+									<p class="news-block__text">Исходя из астатической системы координат Булгакова, курс астатически проецирует твердый гироскопический...</p>
+									<div class="post-info">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+										<span>69</span>
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<span>11</span>
+										<a class="btn btn--read" href="#">Читать далее  <span class="fa fa-long-arrow-right" aria-hidden="true"></span></a>
+									</div>															
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-xs-12">
+						<div class="news-block">
+							<div class="news-block__top clearfix">
+								<div class="ribbon ribbon--news ribbon--blue">Статьи</div>
+							</div>
+							<div class="news-block__main clearfix">
+								<div class="news-block__wrapper-img">
+									<img class="news-block__photo" src="img/news2.png" alt="news-photo">
+								</div>
+								<div class="news-block__content">
+									<h4 class="news-block__title">Что такое Дрипка?</h4>
+									<p class="news-block__date">20.07.2015 в 11:51</p>
+									<p class="news-block__text">Исходя из астатической системы координат Булгакова, курс астатически проецирует твердый гироскопический...</p>
+									<div class="post-info">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+										<span>69</span>
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<span>11</span>
+										<a class="btn btn--read" href="#">Читать далее  <span class="fa fa-long-arrow-right" aria-hidden="true"></span></a>
+									</div>															
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-xs-12">
+						<div class="news-block">
+							<div class="news-block__top clearfix">
+								<div class="ribbon ribbon--news ribbon--blue">Статьи</div>
+							</div>
+							<div class="news-block__main clearfix">
+								<div class="news-block__wrapper-img">
+									<img class="news-block__photo" src="img/news3.png" alt="news-photo">
+								</div>
+								<div class="news-block__content">
+									<h4 class="news-block__title">Что такое сабом?</h4>
+									<p class="news-block__date">20.07.2015 в 11:51</p>
+									<p class="news-block__text">Исходя из астатической системы координат Булгакова, курс астатически проецирует твердый гироскопический...</p>
+									<div class="post-info">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+										<span>69</span>
+										<i class="fa fa-heart-o" aria-hidden="true"></i>
+										<span>11</span>
+										<a class="btn btn--read" href="#">Читать далее  <span class="fa fa-long-arrow-right" aria-hidden="true"></span></a>
+									</div>															
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-xs-12">
+						<div class="news-block">
+							<div class="news-block__top clearfix">
+								<div class="ribbon ribbon--news ribbon--purple">Новости</div>
+							</div>
+							<div class="news-block__main clearfix">
+								<div class="news-block__wrapper-img">
+									<img class="news-block__photo" src="img/news4.png" alt="news-photo">
+								</div>
+								<div class="news-block__content">
+									<h4 class="news-block__title">Обзор на SIGELEI 150W</h4>
+									<p class="news-block__date">20.07.2015 в 11:51</p>
+									<p class="news-block__text">Исходя из астатической системы координат Булгакова, курс астатически проецирует твердый гироскопический...</p>
+									<div class="post-info">
+										
+										<a class="btn btn--read" href="#">Читать далее  <span class="fa fa-long-arrow-right" aria-hidden="true"></span></a>
+									</div>															
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->
+		
+		</section> <!-- /.news -->
+
+
+		<div class="container container--nopad">
+			<div class="advantages">
+				<h2 class="advantages__title">Приемущества парения электронных сигарет</h2>
+
+				<div class="tabs clearfix">
+
+					<ul class="tabs__caption">
+						<li class="active"><span>Содержание вредных веществ</span></li>
+						<li><span>Запах и пожаро опасность</span></li>
+						<li><span>Вред для окружающих</span></li>
+						<li><span>Экономия</span></li>
+					</ul>
+
+					<div class="tabs__content active">
+						<p>Жидкость для электронных сигарет делается на основе пищевого пропиленгликоля, растительного глицерина, дистилированной воды и пищевых ароматизаторов. Жидкости могут быть как с различным содержанием медицинского никотина, так и безникотиновые – на выбор курильщика.</p>
+						<p>Обычные сигареты, кроме никотина, содержит порядка 4000 химических соединений, из которых около ста являются ядовитыми.</p>
+					</div>
+
+					<div class="tabs__content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+
+					<div class="tabs__content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+
+					<div class="tabs__content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+					</div>
+
+				</div><!-- .tabs-->				
+
+			</div> <!-- /.advantages -->
+		
+
+		<div class="brands">
+			<!-- Для слайдера -->
+			<div class="slider-brands">
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand1.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand2.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand3.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand4.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand1.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+				<div>
+				<div class="brands-slide">
+					<img class="brands-slide__img" src="img/Brand2.png" alt="slider-brands-img">
+					</div>
+				</div>
+
+			</div><!-- Конец ДЛя слайдера		 -->
+			
+		</div> <!-- /.brands -->
+		</div><!-- /.container -->	
+
+	</main>
+
+	<footer id="contact" class="footer">
+		<section class="slide-headings">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="headings">
+							<h3 class="headings__title">Полезные ссылки</h3>
+							<ul class="headings__list">
+								<li class="headings__item"><a href="#">Доставка и оплата</a></li>
+								<li class="headings__item"><a href="#">Сервис и гарантия</a></li>
+								<li class="headings__item"><a href="#">Калькулятор никонтина</a></li>
+								<li class="headings__item"><a href="#">Калькулятор намотки</a></li>
+							</ul>				
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="headings">
+							<h3 class="headings__title">Советы и рекомендации</h3>
+							<ul class="headings__list">
+								<li class="headings__item"><a href="#">Что такое электронная сигарета?</a></li>
+								<li class="headings__item"><a href="#">Вердно ли парение?</a></li>
+								<li class="headings__item"><a href="#">Как правильно намотать койл?</a></li>
+								<li class="headings__item"><a href="#">Все о самозамесе</a></li>
+							</ul>				
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="headings">
+							<h3 class="headings__title">НОВОСТИ</h3>
+							<ul class="headings__list">
+								<li class="headings__item"><a href="#">Мы переехали. Фотоотчет!</a></li>
+								<li class="headings__item"><a href="#">Соверщенно новый бак от Kangertech</a></li>
+								<li class="headings__item"><a href="#">Убийца ISTICK 30W</a></li>
+								<li class="headings__item"><a href="#">Joytech EVIC в наличии уже сегодня!</a></li>
+							</ul>				
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="headings">
+							<h3 class="headings__title">СТАТЬИ</h3>
+							<ul class="headings__list">
+								<li class="headings__item"><a href="#">Популярные способы намотки</a></li>
+								<li class="headings__item"><a href="#">Лучшие наборы для новичков</a></li>
+								<li class="headings__item"><a href="#">Вариват или варивольт?</a></li>
+								<li class="headings__item"><a href="#">Зачем нужны мех. моды?</a></li>
+							</ul>				
+						</div>
+					</div>
+
+				</div> <!-- /.row -->
+			</div> <!-- /.container -->						
+		</section> <!-- /.slide-headings -->
+
+		<section class="slide-contact">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="contact">
+							<h4 class="contact__title">Интернет-магазин «PortCigar.ua»</h4>
+							<p>Лидер на рынке электронных<br>сигарет в Украине с 2008 года.</p>				
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="contact">
+							<h4 class="contact__title">График работы</h4>
+							<p>В будние дни с 8:00 до 21:00<br>Суббота и воскрисенье выходные.</p>				
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="contact">
+							<h4 class="contact__title">Следите за нами в соц. сетях</h4>
+
+							<div class="social-block">
+									<a class="social-block__icon" href="http://www.vk.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-vk fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+									
+									<a class="social-block__icon" href="https://www.youtube.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-youtube fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="https://www.instagram.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-instagram fa-stack-1x"></i>
+										</span>
+									</a>
+									
+								</div>					
+						</div>
+					</div>
+
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="contact">
+							<h4 class="contact__title">Мы принимаем к оплате:</h4>
+							<div class="payment-card">
+								<i class="fa fa-cc-visa" aria-hidden="true"></i>
+								<i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+							</div>	
+						</div>
+					</div>
+				</div> <!-- /.row -->
+
+				<div class="row">
+					<div class="col-sm-5 col-xs-12">
+						<p class="copyright">ТМ используется на основании  лицензии правообладателя.</p>
+					</div>
+
+					<div class="col-sm-7 col-xs-12">
+						<nav class="menu-foter">
+							<ul class="menu-foter__list">
+								<li class="menu-foter__item"><a class="menu-foter__link" href="#home">Главная</a></li>
+								<li class="menu-foter__item"><a class="menu-foter__link" href="#home">Электронные сигареты</a></li>
+								<li class="menu-foter__item"><a class="menu-foter__link" href="#contact">Контакты</a></li>
+								<li class="menu-foter__item"><a class="menu-foter__link" href="#news">Новости</a></li>		
+								<li class="menu-foter__item"><a class="menu-foter__link" href="#home">О компании</a></li>	</ul>
+							</nav>
+					</div>
+					
+				</div><!-- /.row -->
+			</div> <!-- /.container -->						
+		</section> <!-- /.slide-contact -->
+			
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+	
+	<script src="js/main.js"></script>
+
+</body>
+</html>

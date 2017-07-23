@@ -35,6 +35,11 @@ $(document).ready(function() {
 	});
 	// Конец Плавная прокрутка
 
+	if ($(window).width() > 767) {
+		// Анимация с WOW. Инициализация плагина.
+		new WOW().init();
+	}
+
 });// Конец document.ready
 
 //Инициализация плагина Slick
@@ -47,11 +52,19 @@ $('.slider-brands').slick({
   slidesToScroll: 2,
   responsive: [
     {
-      breakpoint: 769,
+      breakpoint: 767,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        // arrows: false
+        arrows: false
+      }
+    },
+    {
+      breakpoint: 479,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
       }
     }
   ]
@@ -74,7 +87,10 @@ $('#show_menu').on('click', function () {
 });
 
 $(window).resize(function(){
-	if ($(window).width() > 768) {
+	if ($(window).width() > 767) {
+		// Анимация с WOW. Инициализация плагина.
+		new WOW().init();
+
 		$topMenu.removeClass('animation')
 			      .removeClass('open');
 		$('#show_menu').removeClass('open');

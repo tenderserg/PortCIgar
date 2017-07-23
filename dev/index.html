@@ -11,7 +11,7 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
   <link type="text/css" rel="stylesheet" href="css/main.css">
 	<!--[if lt IE 9]>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -24,12 +24,12 @@
 		<div class="container">
 			<header class="header">
 				<div class="row">
-					<div class="col-xs-3 col-md-3">
+					<div class="col-xs-9 col-sm-3">
 						<a class="logo" href="#home">
 							<img src="img/Logo-top.png" alt="logo-top">
 						</a>
 					</div>
-					<div class="col-xs-9 col-md-9">
+					<div class="ol-sm-9">
 						<button id="show_menu" class="my-hamburger">
 							<span>toggle menu</span>
 						</button>
@@ -53,15 +53,15 @@
 		<div class="container container--nopad">
 			<div class="wrapper-info">
 				<div class="first-slide-content">
-				<p class="first-slide-content__text">нОВЫЕ ПОСТУПЛЕНИЯ</p>
-				<h1 class="first-slide-content__title">лУЧШИЙ НАБОР<br>ДЛЯ НОВИЧКОВ 2015</h1>
+				<p class="first-slide-content__text wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="140">нОВЫЕ ПОСТУПЛЕНИЯ</p>
+				<h1 class="first-slide-content__title wow bounceInDown" data-wow-duration="2s" data-wow-offset="140">лУЧШИЙ НАБОР<br>ДЛЯ НОВИЧКОВ 2015</h1>
 				<a href="#" class="btn">Посмотреть</a>
 				</div>
 			</div>
 
 			<div class="info-slide">
 				<div class="row">
-					<div class="col-xs-12 col-sm-4 col-nopad">
+					<div class="col-xs-12 col-sm-4 col-nopad wow fadeIn" data-wow-duration="2s" data-wow-offset="140">
 						<div class="info-slide__wrapper">
 							<img src="img/info1.jpg" alt="info1">
 							<div class="info-slide__content">
@@ -70,16 +70,16 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-nopad">
+					<div class="col-xs-12 col-sm-4 col-nopad wow fadeIn" data-wow-duration="2s" data-wow-delay="0.5s" data-wow-offset="140">
 						<div class="info-slide__wrapper">
 							<img src="img/info2.jpg" alt="info2">
-							<div class="info-slide__content col-nopad">
+							<div class="info-slide__content">
 								<h3>Сменные<br>Испарители</h3>
 								<a href="#" class="btn">Посмотреть</a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-nopad">
+					<div class="col-xs-12 col-sm-4 col-nopad wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="140">
 						<div class="info-slide__wrapper">
 							<img src="img/info3.jpg" alt="info3">
 							<div class="info-slide__content">
@@ -91,9 +91,12 @@
 				</div>
 			</div>
 
-			<div class="shipment">
-				<img class="shipment__img" src="img/shipment-img.png" alt="shipment-img">
-				<span class="shipment__text1">дОСТАВКА ПО ВСЕЙ УКРАИНЕ</span>
+			<div class="shipment clearfix">
+				<div>
+					<img class="shipment__img" src="img/shipment-img.png" alt="shipment-img">
+					<span class="shipment__text1">дОСТАВКА ПО ВСЕЙ УКРАИНЕ</span>
+				</div>
+				
 				<span class="shipment__text2">Бесплатная доставка по Киеву при заказе на сумму от 500 грн.</span>
 				<a href="#">Подробнее</a>			
 			</div>
@@ -104,14 +107,14 @@
 	<main>
 		<section id="catalog" class="slide-catalog">
 			<div class="container container--nopad">
-				<h2 class="title">Популярные товары</h2>
+				<h2 class="title wow fadeIn" data-wow-duration="2s" data-wow-offset="140">Популярные товары</h2>
 			</div>	
 
 			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="row wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red show">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -132,9 +135,9 @@
 						</div>
 					</div>
 					
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red hide">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -155,9 +158,9 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--green show">Новинка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -178,9 +181,9 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red show">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -205,14 +208,14 @@
 			</div> <!-- /.container -->
 
 			<div class="container container--nopad">
-				<h2 class="title">Рекомендуемые товары</h2>
+				<h2 class="title wow fadeIn" data-wow-duration="2s" data-wow-offset="140">Рекомендуемые товары</h2>
 			</div>	
 
 			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="row wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--green show">Новинка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -233,9 +236,9 @@
 						</div>
 					</div>
 					
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red hide">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -256,9 +259,9 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red hide">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -279,9 +282,9 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="product-card">
-							<div class="product-card__top">
+							<div class="product-card__top clearfix">
 								<div class="ribbon ribbon--red show">Скидка</div>
 								<div class="card-icon">
 										<span class="fa fa-balance-scale" aria-hidden="true"></span>
@@ -308,7 +311,7 @@
 			<div class="container container--nopad">
 				<div class="mail">
 					<span class="mail__text">Будь в курсе всех новых акций и распродаж!</span>
-					<a class="btn btn--mail" href="#">Подписаться на рассылку</a>			
+					<a class="btn btn--mail wow tada" data-wow-duration="2s" data-wow-offset="140" href="#">Подписаться на рассылку</a>			
 				</div>
 			</div><!-- /.container -->
 			
@@ -317,12 +320,12 @@
 		<section id="news" class="slide-news">
 
 			<div class="container container--nopad">
-				<h2 class="title">Новости, статьи и обзоры</h2>
+				<h2 class="title wow fadeIn" data-wow-duration="2s" data-wow-offset="140">Новости, статьи и обзоры</h2>
 			</div>
 
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
 						<div class="news-block">
 							<div class="news-block__top clearfix">
 								<div class="ribbon ribbon--news ribbon--green">Новости</div>
@@ -347,7 +350,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
 						<div class="news-block">
 							<div class="news-block__top clearfix">
 								<div class="ribbon ribbon--news ribbon--blue">Статьи</div>
@@ -372,7 +375,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
 						<div class="news-block">
 							<div class="news-block__top clearfix">
 								<div class="ribbon ribbon--news ribbon--blue">Статьи</div>
@@ -397,7 +400,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-6 col-xs-12">
+					<div class="col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="2s" data-wow-offset="140">
 						<div class="news-block">
 							<div class="news-block__top clearfix">
 								<div class="ribbon ribbon--news ribbon--purple">Новости</div>
@@ -519,7 +522,7 @@
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="headings">
 							<h3 class="headings__title">Полезные ссылки</h3>
 							<ul class="headings__list">
@@ -531,7 +534,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="headings">
 							<h3 class="headings__title">Советы и рекомендации</h3>
 							<ul class="headings__list">
@@ -543,7 +546,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="headings">
 							<h3 class="headings__title">НОВОСТИ</h3>
 							<ul class="headings__list">
@@ -555,7 +558,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="headings">
 							<h3 class="headings__title">СТАТЬИ</h3>
 							<ul class="headings__list">
@@ -575,21 +578,21 @@
 
 			<div class="container">
 				<div class="row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="contact">
 							<h4 class="contact__title">Интернет-магазин «PortCigar.ua»</h4>
 							<p>Лидер на рынке электронных<br>сигарет в Украине с 2008 года.</p>				
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="contact">
 							<h4 class="contact__title">График работы</h4>
 							<p>В будние дни с 8:00 до 21:00<br>Суббота и воскрисенье выходные.</p>				
 						</div>
 					</div>
 					
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="contact">
 							<h4 class="contact__title">Следите за нами в соц. сетях</h4>
 
@@ -630,7 +633,7 @@
 						</div>
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-sm-3 col-xs-6">
 						<div class="contact">
 							<h4 class="contact__title">Мы принимаем к оплате:</h4>
 							<div class="payment-card">
@@ -665,7 +668,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-	
+	<!-- Плагин для Анимации совместно с Animate.css -->
+	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
